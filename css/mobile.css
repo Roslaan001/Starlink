@@ -1,0 +1,498 @@
+html {
+    font-size: 10px;
+}
+body {
+    overflow-x: hidden;
+    font-family: "Cabin", sans-serif;
+    background-image: url(/img/home_illustriation1_d.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    max-width:;
+    width: 500px;
+    color: white;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-image: url(/img/home_a_hero_m.jpg);  
+    background-size: cover;
+    position: static;
+    height: 800px;
+    z-index: 10;
+    width: 500px;
+}
+
+.nav-bg-color {
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.8);
+    width: 100%;
+    height: 60px;
+    z-index: 490;
+  }
+
+.all-nav-bar {
+    display: none;
+}
+
+#slogo {
+
+    font-weight: bolder;
+    font-size: 2rem;
+    position: fixed;
+    top:20px;
+    left:20px;
+    max-width: 100%;
+    width: 120px;
+    display: block;
+    z-index: 500;
+  
+  }
+
+  .high-speed {
+    font-size: 4rem;
+    text-align: center;
+  }
+
+  header {
+    position: absolute;
+    top: 280px;
+    left: 0;
+    width: 100%;
+    
+  }
+
+  .Available {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  #text {
+    border: 2px solid white;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    font-size: 4rem;
+    width: 420px;
+    height: 50px;
+    padding-top: 10px;
+    margin-left: 15px;
+    margin-left: 10px;
+   
+  }
+
+  ::placeholder {
+    color: white;
+    font-size: 1.5rem;
+    text-indent: 5px;
+    margin-top: -500px;
+  }
+
+  form {
+    line-height: 6;
+  }
+
+  #label {
+    text-decoration: none;
+    color:black;
+    font-weight: bolder;
+    background-color: white;
+    padding: 20px 10px;
+    padding-right:150px;
+    padding-left: 150px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+
+  .view-availability {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+   /* #three-images-beside {
+    width: 300px;
+    height: 300px;
+    display: block;  
+  }  */
+
+  #three-img-size {
+    width: 350px;
+    height: 300px;
+    margin: auto;
+    display: block;
+  }
+
+  section.a {
+    position: relative;
+    width: 100%;
+    height: 700px;
+    left: 10px;
+    }
+    
+
+
+  .res-image {
+    position: static;
+    top: 50px;
+    left: 10px;
+    display: block;
+    width: 100%;
+    margin: auto;
+  }
+
+  .res-text {
+    position: absolute;
+    top: 27px;
+    left: 85px;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  
+  }
+
+  .roam-img {
+    position: static;
+    top: 945px;
+    left: 575px;
+    z-index: 1;
+  }
+  
+  
+  .roam-text {
+    position: absolute;
+    top:370px;
+    left: 85px;
+    z-index: 100;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  
+  }
+  
+  .boat-img {
+    position: static;
+    top: 945px;
+    left: 1140px;
+    z-index: 1;
+  }
+  
+  .boat-text {
+    position: absolute;
+    top: 720px;
+    left: 80px;
+    z-index: 1;
+    font-weight: bolder;
+    font-size: 1.5rem;
+  
+  }
+
+  
+
+.star-for-business {
+    position: relative;
+    width: 100%;
+    height: 600px;
+  }
+  
+   .star-for-business-b {
+    position: absolute;
+    top: 350px;
+    left: 10px;
+    width: 450px;
+  } 
+  
+  .star-heading {
+    font-size: 2.6rem;
+    text-align: center;
+    
+  }
+  
+  .star-par {
+    font-size: 1.3rem;
+    text-align: center;
+  
+  }
+  
+  #Learn-more {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 5px;
+    
+  }
+
+  .connectivity-img {
+    position: relative;
+    left: -150px;
+    width: 100%;
+    height: 1200px;
+    z-index: 200;
+  }
+  
+  #conn-img {
+    max-width: 1000px;
+    height: 900px;
+  }
+
+  .connectivity-text {
+    position: absolute;
+    top: 80px;
+    left: 180px;
+    z-index: 5;
+    width: 450px;
+  }
+  
+  .connectivity-text-a {
+    font-size: 2.4rem;
+    font-weight: bolder;
+  }
+  
+  .connectivity-text-b {
+    font-size: 1.3rem;
+    font-weight: lighter;
+  }
+  
+  .video-section {
+    position: relative;
+    width: 100%;
+    height: 350px;
+  }
+
+  video {
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .video-a {
+    position: absolute;
+    top: -250px;;
+    left: -40px;
+  }
+  
+  .text-beside-video {
+    position: static;
+    top: 200px;
+    right: 150px;
+  }
+
+  .get-online {
+    font-weight: bolder;
+    font-size: 2.3rem;
+  }
+  
+  .setup {
+    font-size: 1.3rem;
+  }
+  
+  .plug {
+    font-weight: bolder;
+    font-size: 2.5rem;
+  }
+  
+  .point {
+    font-weight: bolder;
+    font-size: 2.5rem;
+  }
+  
+  .require {
+    font-size: 1.3rem;
+  }
+  
+  #download {
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1rem;
+    padding: 5px;
+  }
+
+  .no-contracts {
+    position: relative;
+    width: 100%;
+    height: 700px;
+  }
+
+  .no-contract-text {
+    position: absolute;
+    top: 500px;
+    left: 30px;
+  }
+  
+  .no-contract-img {
+    position: static;
+    top: 50px;
+    right: 50px;
+  }
+
+  #no-c-img {
+    width: 425px;
+    height: 400px;
+    margin: auto;
+    display: block;
+  }
+  
+  .no-contract-text-a {
+   font-weight: bolder;
+   font-size: 3rem;
+  }
+  
+  .no-contract-text-b {
+    font-size: 1.37rem;
+  }
+  
+  .no-contract-text-c {
+    font-size: 1.37rem;
+   
+  }
+
+  .spacex-img {
+    position: relative;
+    width: 100%;
+    height: 1100px;
+    left: -250px;
+  }
+  
+  .spacex-text {
+    position: absolute;
+    top: 50px;
+    left: 270px;
+    z-index: 5;
+    width: 600px;
+  }
+  
+  .spacex-text-a {
+    font-size: 2rem;
+    font-weight: bolder;
+  }
+  
+  .spacex-text-b {
+    font-size: 1.4rem;
+    font-weight: lighter;
+  }
+
+  #Learn-more-b {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border: 2px solid white;
+    padding: 10px;
+  }
+
+  
+section.last-section{
+  
+    position: relative;
+    width: 100%;
+    height: 400px;
+  }
+  
+  .last-section-text {
+    position: absolute;
+    top: -170px;
+    left: 20px;
+    width: 400px;
+  }
+  
+  .trial {
+    font-size: 3rem;
+  }
+  
+  .refund {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  
+  footer {
+    background-color: black;
+    padding-top: 25px;
+    text-align: center;
+    position: relative;
+    width: 100%;
+    height: 500px;
+  }
+  
+  #email {
+    background: none;
+    border: 0;
+    border-bottom: 1px solid white;
+    width: 350px;
+    height: 50px;
+    font-size: 0.5rem;
+    position: absolute;
+    left: -100px;
+  }
+
+  .sign {
+    position: absolute;
+    right: -75px;
+    top: 50px;
+  }
+  .form-last {
+    background: none;
+  }
+  
+  .footer-a {
+    
+    position: absolute;
+    top: 10px;
+    right: 100px;
+  }
+
+  .footer.b {
+    position: absolute;
+    top: 20px;
+    right: 10px;
+  }
+
+  .careers {
+    position: absolute;
+    top: 150px;
+    left: 190px;
+    line-height: 1.7;
+    font-size: 1.2rem;
+  }
+  
+  #email::placeholder {font-size: 15px;
+  font-weight: lighter;
+  }
+  
+  li {
+    display: block;
+  
+  }
+  
+  .space {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+
+  #loogo {
+    position: absolute;
+    top: -20px;
+    left: 230px;
+  }
+
+  footer.c {
+    position: absolute;
+    top: 70px;
+    left:400px;
+  }
+
+  .x2024 {
+    position: absolute;
+    bottom: 10px;
+    width: 200px;
+  }
+  
+  

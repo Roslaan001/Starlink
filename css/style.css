@@ -1,0 +1,497 @@
+html {
+   font-size:62.5%;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-image: url(/img/home_illustriation1_d.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  max-width: 100%;
+  color:white;
+  
+}
+
+img {
+  max-width: 100%;
+}
+
+nav {
+background-image: url(/img/home_a_hero_d.jpg);
+background-size: cover;
+position: relative;
+top: -30px;
+height: 800px;
+width: 1688px;
+z-index: 1000;
+} 
+
+.nav-bg-color {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  width: 100%;
+  height: 100px;
+  z-index: 600;
+}
+
+.all-nav-bar {
+  font-weight: bolder;
+  font-size: 2rem;
+  position: absolute;
+  top:50px;
+  z-index: 600;
+}
+
+#slogo {
+
+  font-weight: bolder;
+  font-size: 2rem;
+  position: absolute;
+  top:50px;
+  display: none;
+
+}
+
+/* .nav-bar-bg-color {
+  background-color: rgb(255, 3, 3);
+  position: fixed;
+  top: 10px;
+  z-index: 10px;
+} */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+div.right-nav-bar {
+    position: fixed;
+    right: 10px;
+    z-index: 600;
+    
+  
+  
+}
+
+div.left-nav-bar {
+  position: fixed;
+  left: 10px;
+  text-indent: 100px;
+  z-index: 600;
+ 
+
+}
+
+
+span.vertical-rule {
+    border-left: 2px solid white;
+    height: 50px;
+}
+
+.starlink {
+  font-size: 2.5rem;
+}
+
+#slogo {
+
+  font-weight: bolder;
+  font-size: 2rem;
+  position: absolute;
+  top:40px;
+  left:20px;
+  max-width: 100%;
+  width: 120px;
+  display: none;
+
+}
+
+.personal {
+  text-decoration: underline;
+  text-decoration-style: solid;
+}
+
+header {
+  position: absolute;
+  top: 250px;
+  left: 200px;
+}
+
+.high-speed {
+  font-size: 7.5rem;
+}
+
+.Available {
+  font-size: 4rem;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+  
+}
+
+#text {
+  border: 2px solid white;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  font-size: 3rem;
+  width: 500px;
+  height: 50px;
+  padding: 25px;
+ 
+}
+
+
+::placeholder {
+  color: white;
+  font-size: 2rem;
+  text-indent: 15px;
+}
+
+#label {
+  text-decoration: none;
+  color:black;
+  font-weight: bold;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 5px;
+}
+
+
+
+.view-availability {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.three-images-beside {
+  position: relative;
+  width: 100%;
+  height: 350px;
+}
+
+.res-image {
+  position: absolute;
+  top: 87px;
+  left: 20px;
+}
+
+.res-text {
+  position: absolute;
+  top: 110px;
+  left: 35px;
+  z-index: 1;
+  font-weight: bolder;
+  font-size: 2.5rem;
+
+}
+
+.roam-img {
+  position: absolute;
+  top: 945px;
+  left: 435px;
+}
+
+
+.roam-text {
+  position: absolute;
+  top: 970px;
+  left: 470px;
+  z-index: 1;
+  font-weight: bolder;
+  font-size: 2.5rem;
+
+}
+
+.boat-img {
+  position: absolute;
+  top: 945px;
+  left: 850px;
+}
+
+.boat-text {
+  position: absolute;
+  top: 970px;
+  left: 880px;
+  z-index: 1;
+  font-weight: bolder;
+  font-size: 2.5rem;
+
+}
+
+#connect {
+  font-weight: lighter;
+}
+
+#connect:hover {
+  font-weight: bold;
+}
+
+#three-img-size {
+  width: 390px;
+  height: 650px;
+}
+
+
+
+.star-for-business {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.star-for-business-b {
+  position: absolute;
+  top: 370px;
+  left: 150px;
+}
+
+.star-heading {
+  font-size: 4rem;
+  text-align: center;
+}
+
+.star-par {
+  font-size: 2rem;
+  text-align: center;
+}
+
+#Learn-more {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  padding: 5px;
+}
+
+.connectivity-img {
+  position: relative;
+  width: 100%;
+  height: 1299;
+}
+
+#conn-img {
+  width: 1687px;
+  height: 900px;
+}
+
+.connectivity-text {
+  position: absolute;
+  top: 130px;
+  left: 40px;
+  z-index: 5;
+  width: 600px;
+}
+
+.connectivity-text-a {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.connectivity-text-b {
+  font-size: 2rem;
+  font-weight: lighter;
+}
+
+.video-section {
+  position: relative;
+  width: 100%;
+  height: 350px;
+  left: 40px;
+}
+
+video {
+  width: 40%;
+  height: auto;
+}
+
+.video-a {
+  position: absolute;
+  top: 100px;
+  left: 100px;
+}
+
+.text-beside-video {
+  position: absolute;
+  top: 70px;
+  right: 200px;
+}
+
+.get-online {
+  font-weight: bolder;
+  font-size: 3.5rem;
+}
+
+.setup {
+  font-size: 1.2rem;
+}
+
+.plug {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.point {
+  font-weight: bolder;
+  font-size: 2.5rem;
+}
+
+.require {
+  font-size: 1.2rem;
+}
+
+#download {
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  padding: 5px;
+}
+
+.no-contracts {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+
+.no-contract-text {
+  position: absolute;
+  top:200px;
+  left: 45px;
+}
+
+.no-contract-img {
+  position: absolute;
+  top: 50px;
+  right: 50px;
+}
+
+.no-contract-text-a {
+ font-weight: bolder;
+ font-size: 4rem;
+}
+
+.no-contract-text-b {
+  font-size: 1.5rem;
+ 
+}
+
+.no-contract-text-c {
+  font-size: 1.5rem;
+ 
+}
+
+
+
+#no-c-img {
+  width: 650px;
+  height: 500px;
+}
+
+.spacex-img {
+  position: relative;
+  width: 100%;
+  height: 1299;
+}
+
+.spacex-text {
+  position: absolute;
+  top: 130px;
+  left: 30px;
+  z-index: 5;
+}
+
+.spacex-text-a {
+  font-size: 4rem;
+  font-weight: bolder;
+}
+
+.spacex-text-b {
+  font-size: 1.7rem;
+  font-weight: lighter;
+}
+
+#Learn-more-b {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 2px solid white;
+  padding: 15px;
+}
+
+section.last-section{
+  
+  position: relative;
+  width: 100%;
+  height: 400px;
+}
+
+.last-section-text {
+  position: absolute;
+  top: 170px;
+  left: 300px;
+}
+
+.trial {
+  font-size: 4.5rem;
+}
+
+.refund {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+  padding-top: 25px;
+  font-size: 1.2rem;
+}
+
+#email {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid white;
+  width: 180px;
+  height: 50px;
+  font-size: 0.5rem;
+}
+.form-last {
+  background: none;
+}
+
+.footer-a {float: right;
+padding-top: -10px;
+  margin-right: 20px;
+}
+
+#email::placeholder {font-size: 15px;
+font-weight: lighter;
+}
+
+ul {
+  display: inline;
+
+}
+
+li {
+  display: inline;
+}
+
+.space {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+footer.c {
+  text-align: center;
+}
